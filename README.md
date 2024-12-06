@@ -1,5 +1,6 @@
 |  | Project | Description |
 | ---          |     ---    |          --- |
+| <a href="https://andressabertolini.github.io/react-short-projects/movie-synopsis-app"><img src="movie-synopsis-app/thumbnail.png" width="200"/></a> | <a href="https://andressabertolini.github.io/react-short-projects/movie-synopsis-app" target="_blank">Movie Synopsis App</a> | Is that movie worth watching? 🎥 |
 | <a href="https://andressabertolini.github.io/react-short-projects/quiz-app"><img src="quiz-app/thumbnail.png" width="200"/></a> | <a href="https://andressabertolini.github.io/react-short-projects/quiz-app" target="_blank">Quiz App</a> | What will your score be? ✅ |
 | <a href="https://andressabertolini.github.io/react-short-projects/todo-list-app"><img src="todo-list-app/thumbnail.png" width="200"/></a> | <a href="https://andressabertolini.github.io/react-short-projects/todo-list-app" target="_blank">Todo List App</a> | Keep track of your tasks with this react app 📝 |
 | <a href="https://andressabertolini.github.io/react-short-projects/expense-tracker-app/"><img src="expense-tracker-app/thumbnail.png" width="200"/></a>| <a href="https://andressabertolini.github.io/react-short-projects/expense-tracker-app/" target="_blank">Expense Tracker App</a> | Helps you to control your expenses 💵💳 |
