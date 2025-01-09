@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.app{
+  background-size: cover;
+  background-position: center center;
+  transition: all 0.4s ease-in-out;
+}
+
+.gradient-background{
+  background-image: linear-gradient(to bottom, rgba(0,0,0, 0.1), rgba(0,0,0, 0.5));
+  min-height: 100vh;
+}
+
+.weather-wrapper{
+  width: 100%;
+  max-width: 344px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn-city{
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+  width: 76px;
+}
+
+.btn-city img{
+  display: block;
+}
+
+.weather-container{
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  margin: 5px;
+}
+
+.date{
+  font-size: 14px;
+}
+
+.city-name{
+  font-size: 30px;
+}
+
+.degrees{
+  font-size: 62px;
+}
+
+.weather-name{
+  font-size: 18px;
+}
+
+/*************** New York Photos *****************/
+
+.new-york-thunderstorm.d{
+  background-image: url(./assets/img/new-york-thunderstorm-day.jpg);
+}
+.new-york-thunderstorm.n{
+  background-image: url(./assets/img/new-york-thunderstorm-night.jpg);
+}
+
+.new-york-drizzle.d{
+  background-image: url(./assets/img/new-york-drizzle-day.jpg);
+}
+.new-york-drizzle.n{
+  background-image: url(./assets/img/new-york-drizzle-night.jpg);
+}
+
+.new-york-rain.d{
+  background-image: url(./assets/img/new-york-rain-day.jpg);
+}
+.new-york-rain.n{
+  background-image: url(./assets/img/new-york-rain-night.jpg);
+}
+
+.new-york-snow.d{
+  background-image: url(./assets/img/new-york-snow-day.jpg);
+}
+.new-york-snow.n{
+  background-image: url(./assets/img/new-york-snow-night.jpg);
+}
+
+.new-york-clear.d{
+  background-image: url(./assets/img/new-york-clear-day.jpg);
+}
+.new-york-clear.n{
+  background-image: url(./assets/img/new-york-clear-night.jpg);
+}
+
+.new-york-clouds.d{
+  background-image: url(./assets/img/new-york-clouds-day.jpg);
+}
+.new-york-clouds.n{
+  background-image: url(./assets/img/new-york-clouds-night.jpg);
+}
+
+.new-york-mist.d{
+  background-image: url(./assets/img/new-york-mist-day.jpg);
+}
+.new-york-mist.n{
+  background-image: url(./assets/img/new-york-mist-night.jpg);
+}
+
+/*************** São Paulo Photos *****************/
+.sao-paulo-thunderstorm.d{
+  background-image: url(./assets/img/sao-paulo-thunderstorm-day.jpg);
+}
+.sao-paulo-thunderstorm.n{
+  background-image: url(./assets/img/sao-paulo-thunderstorm-night.jpg);
+}
+
+.sao-paulo-drizzle.d{
+  background-image: url(./assets/img/sao-paulo-drizzle-day.jpg);
+}
+.sao-paulo-drizzle.n{
+  background-image: url(./assets/img/sao-paulo-drizzle-night.jpg);
+}
+
+.sao-paulo-rain.d{
+  background-image: url(./assets/img/sao-paulo-rain-day.jpg);
+}
+.sao-paulo-rain.n{
+  background-image: url(./assets/img/sao-paulo-rain-night.jpg);
+}
+
+.sao-paulo-clear.d{
+  background-image: url(./assets/img/sao-paulo-clear-day.jpg);
+}
+.sao-paulo-clear.n{
+  background-image: url(./assets/img/sao-paulo-clear-night.jpg);
+}
+
+.sao-paulo-clouds.d, .sao-paulo-snow.d{
+  background-image: url(./assets/img/sao-paulo-clouds-day.jpg);
+}
+.sao-paulo-clouds.n, .sao-paulo-snow.n{
+  background-image: url(./assets/img/sao-paulo-clouds-night.jpg);
+}
+
+.sao-paulo-mist{
+  background-image: url(./assets/img/sao-paulo-mist-day.jpg);
+}
+
+/*************** Rome Photos *****************/
+.rome-thunderstorm.d{
+  background-image: url(./assets/img/rome-thunderstorm-day.jpg);
+}
+.rome-thunderstorm.n{
+  background-image: url(./assets/img/rome-thunderstorm-night.jpg);
+}
+
+.rome-drizzle.d{
+  background-image: url(./assets/img/rome-drizzle-day.jpg);
+}
+.rome-drizzle.n{
+  background-image: url(./assets/img/rome-drizzle-night.jpg);
+}
+
+.rome-rain.d{
+  background-image: url(./assets/img/rome-rain-day.jpg);
+}
+.rome-rain.n{
+  background-image: url(./assets/img/rome-rain-night.jpg);
+}
+
+.rome-snow.d{
+  background-image: url(./assets/img/rome-snow-day.jpg);
+}
+.rome-snow.n{
+  background-image: url(./assets/img/rome-snow-night.jpg);
+}
+
+.rome-clear.d{
+  background-image: url(./assets/img/rome-clear-day.jpg);
+}
+.rome-clear.n{
+  background-image: url(./assets/img/rome-clear-night.jpg);
+}
+
+.rome-clouds.d{
+  background-image: url(./assets/img/rome-clouds-day.jpg);
+}
+.rome-clouds.n{
+  background-image: url(./assets/img/rome-clouds-night.jpg);
+}
+
+.rome-mist{
+  background-image: url(./assets/img/rome-mist-day.jpg);
+}
+
+/*************** Tokyo Photos *****************/
+.tokyo-thunderstorm.d{
+  background-image: url(./assets/img/tokyo-thunderstorm-day.jpg);
+}
+.tokyo-thunderstorm.n{
+  background-image: url(./assets/img/tokyo-thunderstorm-night.jpg);
+}
+
+.tokyo-drizzle.d{
+  background-image: url(./assets/img/tokyo-drizzle-day.jpg);
+}
+.tokyo-drizzle.n{
+  background-image: url(./assets/img/tokyo-drizzle-night.jpg);
+}
+
+.tokyo-rain.d{
+  background-image: url(./assets/img/tokyo-rain-day.jpg);
+}
+.tokyo-rain.n{
+  background-image: url(./assets/img/tokyo-rain-night.jpg);
+}
+
+.tokyo-snow.d{
+  background-image: url(./assets/img/tokyo-snow-day.jpg);
+}
+.tokyo-snow.n{
+  background-image: url(./assets/img/tokyo-snow-day.jpg);
+}
+
+.tokyo-clear.d{
+  background-image: url(./assets/img/tokyo-clear-day.jpg);
+}
+.tokyo-clear.n{
+  background-image: url(./assets/img/tokyo-clear-night.jpg);
+}
+
+.tokyo-clouds.d{
+  background-image: url(./assets/img/tokyo-clouds-day.jpg);
+}
+.tokyo-clouds.n{
+  background-image: url(./assets/img/tokyo-clouds-night.jpg);
+}
+
+.tokyo-mist{
+  background-image: url(./assets/img/tokyo-mist-day.jpg);
+}
