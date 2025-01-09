@@ -8,11 +8,11 @@ https://www.youtube.com/watch?v=GuA0_Z1llYU
 <br />
 
 # Live Demo
-If you're like me and is always in a rush, just see the live demo, with no need to clone the project and set up the enviroment:
-https://andressabertolini.github.io/weather-app/
+https://andressabertolini.com/project/react-short-projects/weather-app/
 
-[![Thumbnail](thumbnail.png?raw=true "Preview")](https://andressabertolini.github.io/weather-app/)
 
+# API
+https://api.openweathermap.org/
 
 # How to execute
 
