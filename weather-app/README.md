@@ -10,9 +10,12 @@ https://www.youtube.com/watch?v=GuA0_Z1llYU
 # Live Demo
 https://andressabertolini.com/project/react-short-projects/weather-app/
 
+<br />
 
 # API
 https://api.openweathermap.org/
+
+<br />
 
 # How to execute
 
