@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: transparent;
+    outline-color: transparent;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #5e9e5e;
+}
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 60px 0;
+}
+
+.wrapper:after{
+    content: "";
+    position: absolute;
+    background-image: url(../src/img/pattern.jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+label{
+    display: block;
+}
+
+.container{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.transaction-list{
+    padding-left: 20px;
+}
+
+.transaction-list li{
+    padding: 5px 0;
+}
+
+.delete-btn{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.delete-btn:hover{
+    opacity: 0.5;
+}
+
+/********** Helpers **********/
+
+.text-center{
+    text-align: center;
+}
+
+/********** Margins, paddings **********/
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+/********** Objects **********/
+
+.box{
+    background-color: #f7f6f6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input{
+    background-color: #f7f6f6;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: #476959;
+    color: white;
+    border: 0;
+    padding: 20px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+/********** Colors **********/
+
+.color-dark-green{
+    color: #476959;
+}
+
+.color-red{
+    color: #e81313;
+}
+
+.color-green{
+    color: #1d7720;
+}
