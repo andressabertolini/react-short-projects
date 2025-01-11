@@ -9,6 +9,12 @@ This was developed from a tutorial for study purposes: https://youtu.be/U9T6YkED
 # Live Demo
 https://andressabertolini.com/project/react-short-projects/recipe-app/
 
+<br />
+
+# API
+https://api.edamam.com/
+
+<br />
 
 # How to execute
 
