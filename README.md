@@ -1,9 +1,57 @@
-|  | Project | Description | Date | Technology |
-| ---          |     ---    |          --- | ---          | ---          |
-| <a href="https://andressabertolini.com/project/react-short-projects/helpdesk-app"><img src="assets/img/thumbnail-helpdesk-app.png" width="200"/></a> | <a href="https://andressabertolini.com/project/react-short-projects/helpdesk-app" target="_blank">Helpdesk App</a> | See tickets (this is an static export of the original project) | Dec 21, 2024 | <img src="assets/img/icon-next.svg" style="vertical-align: -2px" /> Next.js |
-| <a href="https://andressabertolini.com/project/react-short-projects/movie-catalog-app"><img src="assets/img/thumbnail-movie-catalog-app.png" width="200"/></a> | <a href="https://andressabertolini.com/project/react-short-projects/movie-catalog-app" target="_blank">Movie Catalog App</a> | 🎥 Displays a movie catalog from the <a href="https://www.omdbapi.com/">OMDb API</a>. You can search for movies by title and access their pages, which contains information such as actors, awards and more. | Dec 03, 2024 | <img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React |
-| <a href="https://andressabertolini.com/project/react-short-projects/quiz-app"><img src="assets/img/thumbnail-quiz-app.png" width="200"/></a> | <a href="https://andressabertolini.com/project/react-short-projects/quiz-app" target="_blank">Quiz App</a> | ✅ Grabs questions from an array and displays one at a time. When clicking it gives a feedback of if the answer is correct or not. At the end of the game displays a scores and a custom message according to the result | Nov 27, 2024 | <img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React |
-| <a href="https://andressabertolini.com/project/react-short-projects/todo-list-app"><img src="assets/img/thumbnail-todo-list-app.png" width="200"/></a> | <a href="https://andressabertolini.com/project/react-short-projects/todo-list-app" target="_blank">Todo List App</a> | 📝 Add tasks in a list with the option to complete, delete or edit it  | Jan 29, 2021 | <img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React |
-| <a href="https://andressabertolini.com/project/react-short-projects/expense-tracker-app/"><img src="assets/img/thumbnail-expense-tracker-app.png" width="200"/></a>| <a href="https://andressabertolini.com/project/react-short-projects/expense-tracker-app/" target="_blank">Expense Tracker App</a> | 💵 Add expenses and incomes to an array. Displays the balance and the transactions history | Jan 01, 2021 | <img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React |
-| <a href="https://andressabertolini.com/project/react-short-projects/recipe-app/"><img src="assets/img/thumbnail-recipe-app.png" width="200"/></a> | <a href="https://andressabertolini.com/project/react-short-projects/recipe-app/" target="_blank">Recipe App</a> | 👩🏼‍🍳 List recipes from an API and has a search field where you can search for specific recipes | Dec 12, 2020 | <img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React |
-| <a href="https://andressabertolini.com/project/react-short-projects/weather-app/"><img src="assets/img/thumbnail-weather-app.png" width="200"/></a>| <a href="https://andressabertolini.com/project/react-short-projects/weather-app/" target="_blank">Weather App</a> | 🌦 Fetch data from a weather API and changes the background image according to it for 4 different cities in different countries | Dec 09, 2020 | <img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React |
+<table>
+    <tr>
+        <th colspan="2">Project</th>
+        <th width="200">Description</th>
+        <th>Date</th>
+        <th>Technology</th>
+    </tr>
+    <tr>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/helpdesk-app"><img src="assets/img/thumbnail-helpdesk-app.png" width="200"/></a></td>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/helpdesk-app" target="_blank">Helpdesk App</a></td>
+        <td>📄 See the tickets list and their priority tags. Click on them to see the ticket details (this is an static export of the original project)</td>
+        <td>Dec 21, 2024</td>
+        <td><img src="assets/img/icon-next.svg" style="vertical-align: -2px" /> Next.js</td>
+    </tr>
+    <tr>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/movie-catalog-app"><img src="assets/img/thumbnail-movie-catalog-app.png" width="200"/></a></td>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/movie-catalog-app" target="_blank">Movie Catalog App</a></td>
+        <td>🎥 Search for movies by title in the catalog and access their pages, which contains information such as actors, awards and more</td>
+        <td>Dec 03, 2024</td>
+        <td><img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React</td>
+    </tr>
+    <tr>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/quiz-app"><img src="assets/img/thumbnail-quiz-app.png" width="200"/></a></td>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/quiz-app" target="_blank">Quiz App</a></td>
+        <td>✅ Answer Geography questions and see your score</td>
+        <td>Nov 27, 2024</td>
+        <td><img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React</td>
+    </tr>
+    <tr>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/todo-list-app"><img src="assets/img/thumbnail-todo-list-app.png" width="200"/></a></td>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/todo-list-app" target="_blank">Todo List App</a></td>
+        <td>📝 Add tasks in a list with the option to complete, delete or edit it</td>
+        <td>Jan 29, 2021</td>
+        <td><img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React</td>
+    </tr>
+    <tr>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/expense-tracker-app/"><img src="assets/img/thumbnail-expense-tracker-app.png" width="200"/></a></td>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/expense-tracker-app/" target="_blank">Expense Tracker App</a></td>
+        <td>💵 Input incomes and expenses to track your money. See the balance and the transactions history</td>
+        <td>Jan 01, 2021</td>
+        <td><img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React</td>
+    </tr>
+    <tr>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/recipe-app/"><img src="assets/img/thumbnail-recipe-app.png" width="200"/></a></td>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/recipe-app/" target="_blank">Recipe App</a></td>
+        <td>👩🏼‍🍳 Search for recipes and see recipe cards as results, with name and description. Click on it to visualize the external link with the full recipe page</td>
+        <td>Dec 12, 2020</td>
+        <td><img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React</td>
+    </tr>
+    <tr>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/weather-app/"><img src="assets/img/thumbnail-weather-app.png" width="200"/></a></td>
+        <td><a href="https://andressabertolini.com/project/react-short-projects/weather-app/" target="_blank">Weather App</a></td>
+        <td>🌦 See the weather in 4 cities: New York, São Paulo, Rome and Tokyo. The background changes according to the weather and if it's night or day. You can also check temperature in celsius.</td>
+        <td>Dec 09, 2020</td>
+        <td><img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React</td>
+    </tr>
+</table>
